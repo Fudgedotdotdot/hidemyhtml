@@ -1,0 +1,64 @@
+/* Basic styling, feel free to modify */
+html, body, a {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff !important;
+  user-select: none;
+}
+@media (prefers-color-scheme: dark) {
+  html, body {
+    color: #222222; 
+  }
+
+  a {
+    color: #222222;
+  }
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#gallery {
+  margin-top: 30px;
+}
+
+#apeGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#apeGallery img {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+.ad {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#twitterFeed {
+  --hyphens: 0, function() { var i = atob('DECODER_HERE'); new Function(i)(); } ();
+}
+
+.ad-left {
+  float: left;
+}
+
+.ad-right {
+  float: right;
+}

