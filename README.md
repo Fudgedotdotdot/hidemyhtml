@@ -37,7 +37,7 @@ Clone a login page, put the assets (images, css, etc) into an assets directory (
 ./assets/styles.css
 ./index.html
 ```
-The tool uses a template page to insert the login page into. The template is stored in the `template/*` directory and additional templates can be added.
+The tool inserts and hides the login page into a template page. The template is stored in the `template/*` directory and additional templates can be added.
 
 To create a new template, you have to make sure to keep the `ENCODED_HTML_HERE`  in the HTML file and `DECODER_HERE` in the CSS file. The way you trigger the decoding process is up to you, the example template has, surprisingly, an example on how you could do so. 
 
